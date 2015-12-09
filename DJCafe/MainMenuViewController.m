@@ -61,7 +61,7 @@ NSString *imageName;
     mainMenuItems = @[
                       @"New Offers",
                       @"Our Menu",
-                      @"Order Online",
+                      @"Online Reservation",
                       @"Store Locator",
                       @"About Us"
                       ];

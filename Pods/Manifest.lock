@@ -1,0 +1,10 @@
+PODS:
+  - MagnetPopupPicker (0.1.0)
+
+DEPENDENCIES:
+  - MagnetPopupPicker
+
+SPEC CHECKSUMS:
+  MagnetPopupPicker: cd3f6e7203fad392008e6d8c46cbfdc0bb9f2739
+
+COCOAPODS: 0.39.0
