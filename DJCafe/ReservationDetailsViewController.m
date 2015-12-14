@@ -9,6 +9,7 @@
 #import "ReservationDetailsViewController.h"
 
 @interface ReservationDetailsViewController ()
+
 @property (weak, nonatomic) IBOutlet UITextField *txtAdults;
 @property (weak, nonatomic) IBOutlet UITextField *txtKids;
 @property (weak, nonatomic) IBOutlet UILabel *lblKids;
@@ -18,14 +19,17 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnReserve;
 
 @end
+
 NSString *message;
+
 @implementation ReservationDetailsViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    self.swKidsYesNo.on=NO;
     [self.lblKids setHidden:YES];
     [self.txtKids setHidden:YES];
+    self.swKidsYesNo.on=NO;
     self.btnReserve.layer.cornerRadius = 3;
     self.btnReserve.backgroundColor = [UIColor greenColor];
     self.title = @"Reservation Details";
@@ -36,7 +40,8 @@ NSString *message;
 }
 
 - (IBAction)swToggle:(id)sender {
-    if (self.swKidsYesNo.on == YES) {
+    
+    if (self.swKidsYesNo.on == YES){
         [self.lblKids setHidden:NO];
         [self.txtKids setHidden:NO];
     }
@@ -50,12 +55,14 @@ NSString *message;
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     [[self view] endEditing:YES];
 }
+
 - (IBAction)btnReserve:(id)sender {
+    
     if (self.swKidsYesNo.on==NO) {
-            message = [NSString stringWithFormat:@"Floor Number : %@\rRoom Number : %@\rAdults : %@\rSp.Mentions : %@\r",self.floorNumber,self.roomNumber,self.txtAdults.text,self.tfSpecialMentions.text];
+            message = [NSString stringWithFormat:@"Floor Number : %@\rRoom Number : %@\rTable Number : %@\rAdults : %@\rSp.Mentions : %@\r",self.floorNumber,self.roomNumber,self.imageName, self.txtAdults.text,self.tfSpecialMentions.text];
     }
     else{
-            message = [NSString stringWithFormat:@"Floor Number : %@\rRoom Number : %@\rAdults : %@\rKids : %@\rSp.Mentions : %@\r",self.floorNumber,self.roomNumber,self.txtAdults.text,self.txtKids.text,self.tfSpecialMentions.text];
+            message = [NSString stringWithFormat:@"Floor Number : %@\rRoom Number : %@\rTable Number : %@\rAdults : %@\rKids : %@\rSp.Mentions : %@\r",self.floorNumber,self.roomNumber,self.imageName, self.txtAdults.text,self.txtKids.text,self.tfSpecialMentions.text];
     }
     
     UIAlertController * alert=   [UIAlertController
@@ -70,9 +77,7 @@ NSString *message;
                          style:UIAlertActionStyleDefault
                          handler:^(UIAlertAction * action)
                          {
-                             //Do some thing here
                              [alert dismissViewControllerAnimated:YES completion:nil];
-                             
                          }];
     [alert addAction:ok];
 }
