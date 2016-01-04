@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '01FF9F91CF892F39D42C50A9'
+               BlueprintIdentifier = '940DCF812E05564176879B9E'
                BlueprintName = 'MagnetPopupPicker-MagnetPopupPicker'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MagnetPopupPicker.bundle'>

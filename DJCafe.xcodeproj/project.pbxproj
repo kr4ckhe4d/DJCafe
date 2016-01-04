@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D71B8A91C1806C200D3A954 /* ReservationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D71B8A81C1806C200D3A954 /* ReservationDetailsViewController.m */; };
+		0DE0748F1C23DDFA005C7602 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0748E1C23DDFA005C7602 /* CoreDataStack.m */; };
 		7C3DD2781C03273500B52F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3DD2771C03273500B52F67 /* main.m */; };
 		7C3DD27B1C03273500B52F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3DD27A1C03273500B52F67 /* AppDelegate.m */; };
 		7C3DD27E1C03273500B52F67 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3DD27D1C03273500B52F67 /* MainMenuViewController.m */; };
@@ -33,6 +34,8 @@
 /* Begin PBXFileReference section */
 		0D71B8A71C1806C200D3A954 /* ReservationDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationDetailsViewController.h; sourceTree = "<group>"; };
 		0D71B8A81C1806C200D3A954 /* ReservationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationDetailsViewController.m; sourceTree = "<group>"; };
+		0DE0748D1C23DDFA005C7602 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataStack.h; path = ../CoreDataStack.h; sourceTree = "<group>"; };
+		0DE0748E1C23DDFA005C7602 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataStack.m; path = ../CoreDataStack.m; sourceTree = "<group>"; };
 		7C3DD2731C03273500B52F67 /* DJCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3DD2771C03273500B52F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C3DD2791C03273500B52F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 			children = (
 				7C3DD2791C03273500B52F67 /* AppDelegate.h */,
 				7C3DD27A1C03273500B52F67 /* AppDelegate.m */,
+				0DE0748D1C23DDFA005C7602 /* CoreDataStack.h */,
+				0DE0748E1C23DDFA005C7602 /* CoreDataStack.m */,
 			);
 			name = AppMain;
 			sourceTree = "<group>";
@@ -326,6 +331,7 @@
 				7C604B2B1C0415990079435E /* OurMenuViewController.m in Sources */,
 				7C604B3F1C042A3C0079435E /* OfferDetailsViewController.m in Sources */,
 				7C604B281C0415480079435E /* NewOffersViewController.m in Sources */,
+				0DE0748F1C23DDFA005C7602 /* CoreDataStack.m in Sources */,
 				7C536D291C06BD8100A73314 /* DetailedMapViewController.m in Sources */,
 				7C3DD2841C03273500B52F67 /* DJCafe.xcdatamodeld in Sources */,
 				7C3DD27E1C03273500B52F67 /* MainMenuViewController.m in Sources */,
@@ -451,6 +457,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DJCafe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appmonkeyz.BlankDemo.DJCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -466,6 +473,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DJCafe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appmonkeyz.BlankDemo.DJCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";

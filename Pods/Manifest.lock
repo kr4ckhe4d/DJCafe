@@ -1,10 +1,13 @@
 PODS:
+  - CNPPopupController (0.3.1)
   - MagnetPopupPicker (0.1.0)
 
 DEPENDENCIES:
+  - CNPPopupController
   - MagnetPopupPicker
 
 SPEC CHECKSUMS:
+  CNPPopupController: 67dc2ca5a3f88cd49a27bb1b0aeb78a24d423d79
   MagnetPopupPicker: cd3f6e7203fad392008e6d8c46cbfdc0bb9f2739
 
 COCOAPODS: 0.39.0

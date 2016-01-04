@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CNPPopupController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MagnetPopupPicker-MagnetPopupPicker.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>611A56531AE8BFDB2320359150B8A900</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A3B07AA39AAB6788B9E4239EC48B71E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C602694DFF3EFD336B237827F18CC9B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>E42B5933134827C742BE1AE0A3B518CF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FC47E2BB53F7772D6A6FD9AD2AB0F534</key>
 		<dict>
 			<key>primary</key>
 			<true/>

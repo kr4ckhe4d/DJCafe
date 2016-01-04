@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '368173BF2F08A4E28B8DDC6A'
-               BlueprintName = 'Pods'
+               BlueprintIdentifier = '6AAC6196A969C18193297ADC'
+               BlueprintName = 'CNPPopupController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods.a'>
+               BuildableName = 'libCNPPopupController.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

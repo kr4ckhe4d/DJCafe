@@ -387,14 +387,14 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Special Mentions :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cM4-Qv-ARR">
-                                <rect key="frame" x="6" y="230" width="140" height="20.5"/>
+                                <rect key="frame" x="6" y="325" width="140" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L2q-NY-8fx">
-                                <rect key="frame" x="20" y="259" width="294" height="165"/>
+                                <rect key="frame" x="20" y="361.5" width="294" height="73.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -435,33 +435,58 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date and Time :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbP-lq-qc5">
+                                <rect key="frame" x="6" y="214" width="120.5" height="20.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Nfb-mx-pAe">
+                                <rect key="frame" x="6" y="242" width="294" height="75"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="oiz-JB-OiN"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="471854819.26648301">
+                                    <!--2015-12-15 06:46:59 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="pickerAction:" destination="kUn-7m-EbQ" eventType="valueChanged" id="Ati-in-ovE"/>
+                                </connections>
+                            </datePicker>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="L2q-NY-8fx" secondAttribute="trailing" constant="6" id="4xK-6x-mGn"/>
+                            <constraint firstAttribute="trailing" secondItem="Nfb-mx-pAe" secondAttribute="trailing" constant="20" id="11z-XF-Fxn"/>
                             <constraint firstItem="2cb-6E-udE" firstAttribute="top" secondItem="XRQ-aE-Yuy" secondAttribute="bottom" constant="18" id="8Tq-xf-hQ3"/>
+                            <constraint firstItem="vbP-lq-qc5" firstAttribute="leading" secondItem="vdR-vw-Gsv" secondAttribute="leading" constant="6" id="A5e-nb-sj4"/>
                             <constraint firstAttribute="trailing" secondItem="6lV-wo-ftg" secondAttribute="trailing" constant="20" id="AYb-Oc-HxH"/>
-                            <constraint firstItem="L2q-NY-8fx" firstAttribute="leading" secondItem="vdR-vw-Gsv" secondAttribute="leading" constant="20" id="CeB-YC-FNx"/>
+                            <constraint firstItem="cM4-Qv-ARR" firstAttribute="top" secondItem="Nfb-mx-pAe" secondAttribute="bottom" constant="8" id="E2x-Ar-ybT"/>
                             <constraint firstAttribute="trailing" secondItem="n37-Dd-q5S" secondAttribute="trailing" id="Hgs-0v-bRn"/>
+                            <constraint firstItem="vbP-lq-qc5" firstAttribute="top" secondItem="1bY-vU-Rhn" secondAttribute="bottom" constant="7.5" id="IWF-qI-WNC"/>
                             <constraint firstItem="Mtb-6z-xQy" firstAttribute="top" secondItem="2cb-6E-udE" secondAttribute="bottom" constant="20" id="JdP-xd-JE0"/>
-                            <constraint firstItem="L2q-NY-8fx" firstAttribute="top" secondItem="cM4-Qv-ARR" secondAttribute="bottom" constant="8" id="Wa3-jk-j0B"/>
+                            <constraint firstItem="n37-Dd-q5S" firstAttribute="top" secondItem="L2q-NY-8fx" secondAttribute="bottom" constant="10" id="K92-2v-dck"/>
+                            <constraint firstAttribute="trailing" secondItem="L2q-NY-8fx" secondAttribute="trailing" constant="6" id="KAk-7B-8Su"/>
+                            <constraint firstItem="Nfb-mx-pAe" firstAttribute="leading" secondItem="vdR-vw-Gsv" secondAttribute="leading" constant="6" id="Lbw-3W-rLX"/>
+                            <constraint firstItem="L2q-NY-8fx" firstAttribute="leading" secondItem="vdR-vw-Gsv" secondAttribute="leading" constant="20" id="Tru-1c-4cj"/>
                             <constraint firstItem="6lV-wo-ftg" firstAttribute="top" secondItem="aij-wd-ma1" secondAttribute="bottom" constant="8" id="WuZ-M2-XLg"/>
-                            <constraint firstItem="cM4-Qv-ARR" firstAttribute="leading" secondItem="vdR-vw-Gsv" secondAttribute="leading" constant="6" id="X7t-nm-Kpp"/>
                             <constraint firstItem="Crn-rg-xlg" firstAttribute="top" secondItem="kcW-a2-s4B" secondAttribute="bottom" constant="14" id="Y2y-dz-aUT"/>
                             <constraint firstItem="XRQ-aE-Yuy" firstAttribute="leading" secondItem="vdR-vw-Gsv" secondAttribute="leading" constant="6" id="Y7y-cG-96o"/>
                             <constraint firstAttribute="trailing" secondItem="aij-wd-ma1" secondAttribute="trailing" constant="85" id="afY-EQ-VQn"/>
                             <constraint firstItem="1bY-vU-Rhn" firstAttribute="leading" secondItem="vdR-vw-Gsv" secondAttribute="leading" constant="6" id="aiE-qg-eUW"/>
                             <constraint firstItem="2cb-6E-udE" firstAttribute="leading" secondItem="vdR-vw-Gsv" secondAttribute="leading" constant="6" id="bPk-1i-f7q"/>
+                            <constraint firstItem="L2q-NY-8fx" firstAttribute="top" secondItem="cM4-Qv-ARR" secondAttribute="bottom" constant="15.5" id="btH-Tj-uM1"/>
                             <constraint firstAttribute="trailing" secondItem="Crn-rg-xlg" secondAttribute="trailing" constant="20" id="dc8-Qw-SwL"/>
                             <constraint firstItem="XRQ-aE-Yuy" firstAttribute="top" secondItem="ar4-qk-Eu9" secondAttribute="bottom" constant="8" id="diM-Hc-LVf"/>
                             <constraint firstItem="aij-wd-ma1" firstAttribute="top" secondItem="Crn-rg-xlg" secondAttribute="bottom" constant="8" id="iPU-b5-j7e"/>
-                            <constraint firstItem="cM4-Qv-ARR" firstAttribute="top" secondItem="1bY-vU-Rhn" secondAttribute="bottom" constant="24" id="lNk-Oo-vOb"/>
                             <constraint firstItem="tIe-W3-9S0" firstAttribute="top" secondItem="n37-Dd-q5S" secondAttribute="bottom" id="mNw-2N-16T"/>
                             <constraint firstItem="1bY-vU-Rhn" firstAttribute="top" secondItem="Mtb-6z-xQy" secondAttribute="bottom" constant="15" id="qZ6-hY-GdL"/>
                             <constraint firstItem="Mtb-6z-xQy" firstAttribute="leading" secondItem="vdR-vw-Gsv" secondAttribute="leading" constant="6" id="ss7-jw-T87"/>
+                            <constraint firstItem="cM4-Qv-ARR" firstAttribute="leading" secondItem="vdR-vw-Gsv" secondAttribute="leading" constant="6" id="tZk-cA-qns"/>
+                            <constraint firstItem="Nfb-mx-pAe" firstAttribute="top" secondItem="vbP-lq-qc5" secondAttribute="bottom" constant="8" id="uC8-t4-cK9"/>
                             <constraint firstItem="kcW-a2-s4B" firstAttribute="top" secondItem="ar4-qk-Eu9" secondAttribute="bottom" constant="8" id="vjf-4Y-Bwq"/>
-                            <constraint firstItem="n37-Dd-q5S" firstAttribute="top" secondItem="L2q-NY-8fx" secondAttribute="bottom" constant="21" id="wYk-yw-GEc"/>
                             <constraint firstAttribute="trailing" secondItem="kcW-a2-s4B" secondAttribute="trailing" constant="6" id="xeX-BR-90J"/>
                             <constraint firstItem="n37-Dd-q5S" firstAttribute="leading" secondItem="vdR-vw-Gsv" secondAttribute="leading" id="yfT-kb-kYA"/>
                         </constraints>
@@ -469,6 +494,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="btnReserve" destination="n37-Dd-q5S" id="xM2-IG-QAz"/>
+                        <outlet property="datePicker" destination="Nfb-mx-pAe" id="wEK-Za-Vb1"/>
                         <outlet property="lblCurrentSelection" destination="kcW-a2-s4B" id="97Y-BT-dun"/>
                         <outlet property="lblKids" destination="1bY-vU-Rhn" id="1Ho-ik-kjT"/>
                         <outlet property="swKidsYesNo" destination="aij-wd-ma1" id="Qci-Lb-40Q"/>

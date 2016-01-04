@@ -7,30 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CBC727D198E22B3B38B4D9BF3F9C334 /* MagnetKeyValuePair.h in Headers */ = {isa = PBXBuildFile; fileRef = C46F2B2C994EFF4F00EDFC170488D844 /* MagnetKeyValuePair.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		220C96DB7C711C4FFDAE7A8B4A389493 /* MagnetPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D81365C41602096EE05B49FECFA42A /* MagnetPickerViewController.m */; };
-		2395BD35ECF13C2D963F74A0119AE789 /* MagnetPopupPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C316F724FCC6B6E8AE1344A73D783 /* MagnetPopupPicker-dummy.m */; };
-		2B1258A037EF8D5D96040BDE3B69CB8B /* MagnetPopoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF2D38CBD1188594C4CCF5D12276262 /* MagnetPopoverView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B7FF7E03DC9706AACB2884E0061F681 /* MagnetPopupPickerButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3284CBF82C9A6CA15BE1F43609820434 /* MagnetPopupPickerButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F564E66A0B5656418C581378A342C95 /* MagnetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 812FF7F7FD9CDEFEE42F411311EF4826 /* MagnetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		508885E1C9AAB100AD032EADBA3E7E01 /* MagnetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 121B140ED61624949DCE745B1D2F115C /* MagnetViewController.m */; };
-		5C39E9F1106C9A999DD7A3947E9A15A8 /* MagnetPopupPickerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 27037BEA90BB920E1B52DB277D9753E7 /* MagnetPopupPickerButton.m */; };
-		602D37B49D1CFD4EDF241A2F916113B7 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		650665E459E0AC1D38B34352760767AC /* MagnetKeyValuePair.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AFE36F8BF31E26A5F81930E20DDA14 /* MagnetKeyValuePair.m */; };
-		697D62D4AB9D36A5C00FCA61ACD9924E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		9A51DC54FE9E598C86B596AA289368F8 /* MagnetPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE3D4DE6AC80E67454EA554AC2BCD7F /* MagnetPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEE8197C6D44D9A8F3D959F02F9C0A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		ECE80D7CF8B8584FF72FD761E989C360 /* MagnetPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 486C953F0ED34A53724B112FB053C9FA /* MagnetPopoverView.m */; };
+		1CBC727D198E22B3B38B4D9BF3F9C334 /* MagnetKeyValuePair.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADDD336CB75C0859D0749EE76BD16D0 /* MagnetKeyValuePair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		220C96DB7C711C4FFDAE7A8B4A389493 /* MagnetPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67B5F89ACA3B1AEDD8F2B4EF72713C3 /* MagnetPickerViewController.m */; };
+		2395BD35ECF13C2D963F74A0119AE789 /* MagnetPopupPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B867DE9517DE757FCBA71E67A9B1D0B /* MagnetPopupPicker-dummy.m */; };
+		2B1258A037EF8D5D96040BDE3B69CB8B /* MagnetPopoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C96E00DE56333BFEE2F6D97D979E7D /* MagnetPopoverView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B14649466A8387F650F623318F29DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		2B65513418BD22DD91E1D328A4A2858A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		3B7FF7E03DC9706AACB2884E0061F681 /* MagnetPopupPickerButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 928561A061082946DD79F6871350B103 /* MagnetPopupPickerButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F564E66A0B5656418C581378A342C95 /* MagnetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D9EED3E07C00CE5CC4DE18514FB9F8 /* MagnetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		508885E1C9AAB100AD032EADBA3E7E01 /* MagnetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 674618E4D7643DB10F73900637758CF4 /* MagnetViewController.m */; };
+		5C39E9F1106C9A999DD7A3947E9A15A8 /* MagnetPopupPickerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D87561B9652D03EA08A37339C93DFF3 /* MagnetPopupPickerButton.m */; };
+		650665E459E0AC1D38B34352760767AC /* MagnetKeyValuePair.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058BCF97C7CB9492F7480129F9F7739 /* MagnetKeyValuePair.m */; };
+		66449EC9D54E637CD8915D3A574E6FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		697D62D4AB9D36A5C00FCA61ACD9924E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		994D8C03A1A8E28A45973762B46F81D6 /* CNPPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = A68B90EF91725B8D61F4019E00FB960B /* CNPPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A51DC54FE9E598C86B596AA289368F8 /* MagnetPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7F24025B52E0B9894CF2692BF0CC24 /* MagnetPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACF1BFB0AA738954D18B7B55E5B7DBB4 /* CNPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1651945E8255958AD35179847E799E49 /* CNPPopupController.m */; };
+		B10F2C4A27E10C6CCF269FB1A56CF3BE /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		D97A6AD35DBD5ECD1BD63B2F0857A49F /* CNPPopupController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A741396E4F3A3068ACFB3A2325130415 /* CNPPopupController-dummy.m */; };
+		ECE80D7CF8B8584FF72FD761E989C360 /* MagnetPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDC654BA851DB7DDBF34BBB709E377 /* MagnetPopoverView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3CB8C374B1E0945371776F132896623F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E42B5933134827C742BE1AE0A3B518CF;
-			remoteInfo = MagnetPopupPicker;
-		};
 		5AC9B3866B9AA86C617776EC6413A3DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -38,37 +36,66 @@
 			remoteGlobalIDString = C602694DFF3EFD336B237827F18CC9B2;
 			remoteInfo = "MagnetPopupPicker-MagnetPopupPicker";
 		};
+		6360DCBB898DBCA17386E692E1BF3DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E42B5933134827C742BE1AE0A3B518CF;
+			remoteInfo = MagnetPopupPicker;
+		};
+		931F48507E82BD7A7FA635AE2B778D57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 611A56531AE8BFDB2320359150B8A900;
+			remoteInfo = CNPPopupController;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AE3D4DE6AC80E67454EA554AC2BCD7F /* MagnetPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagnetPickerViewController.h; path = Pod/Classes/MagnetPickerViewController.h; sourceTree = "<group>"; };
+		0008FACD593A073208EFAE97A5FE3B33 /* MagnetPopupPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagnetPopupPicker-prefix.pch"; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		121B140ED61624949DCE745B1D2F115C /* MagnetViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagnetViewController.m; path = Pod/Classes/MagnetViewController.m; sourceTree = "<group>"; };
-		25AFE36F8BF31E26A5F81930E20DDA14 /* MagnetKeyValuePair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagnetKeyValuePair.m; path = Pod/Classes/MagnetKeyValuePair.m; sourceTree = "<group>"; };
-		27037BEA90BB920E1B52DB277D9753E7 /* MagnetPopupPickerButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagnetPopupPickerButton.m; path = Pod/Classes/MagnetPopupPickerButton.m; sourceTree = "<group>"; };
+		1651945E8255958AD35179847E799E49 /* CNPPopupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNPPopupController.m; path = CNPPopupController/CNPPopupController.m; sourceTree = "<group>"; };
+		24530C3D317ED93765BF9FB6D3FED59C /* MagnetPopupPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagnetPopupPicker.xcconfig; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		3284CBF82C9A6CA15BE1F43609820434 /* MagnetPopupPickerButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagnetPopupPickerButton.h; path = Pod/Classes/MagnetPopupPickerButton.h; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3CF2D38CBD1188594C4CCF5D12276262 /* MagnetPopoverView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagnetPopoverView.h; path = Pod/Classes/MagnetPopoverView.h; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		486C953F0ED34A53724B112FB053C9FA /* MagnetPopoverView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagnetPopoverView.m; path = Pod/Classes/MagnetPopoverView.m; sourceTree = "<group>"; };
-		4BBC75AD3858F66DA8120C14F2A6D7E0 /* MagnetPopupPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetPopupPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADDD336CB75C0859D0749EE76BD16D0 /* MagnetKeyValuePair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagnetKeyValuePair.h; path = Pod/Classes/MagnetKeyValuePair.h; sourceTree = "<group>"; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		61A9AE3F2993FA0194C586CDFC0FCF3E /* libMagnetPopupPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMagnetPopupPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7F24025B52E0B9894CF2692BF0CC24 /* MagnetPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagnetPickerViewController.h; path = Pod/Classes/MagnetPickerViewController.h; sourceTree = "<group>"; };
+		674618E4D7643DB10F73900637758CF4 /* MagnetViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagnetViewController.m; path = Pod/Classes/MagnetViewController.m; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		812FF7F7FD9CDEFEE42F411311EF4826 /* MagnetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagnetViewController.h; path = Pod/Classes/MagnetViewController.h; sourceTree = "<group>"; };
+		6D87561B9652D03EA08A37339C93DFF3 /* MagnetPopupPickerButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagnetPopupPickerButton.m; path = Pod/Classes/MagnetPopupPickerButton.m; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B867DE9517DE757FCBA71E67A9B1D0B /* MagnetPopupPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagnetPopupPicker-dummy.m"; sourceTree = "<group>"; };
+		8B4EB914C69197A3E07FC2E844E00752 /* MagnetPopupPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetPopupPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFDC654BA851DB7DDBF34BBB709E377 /* MagnetPopoverView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagnetPopoverView.m; path = Pod/Classes/MagnetPopoverView.m; sourceTree = "<group>"; };
+		9058BCF97C7CB9492F7480129F9F7739 /* MagnetKeyValuePair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagnetKeyValuePair.m; path = Pod/Classes/MagnetKeyValuePair.m; sourceTree = "<group>"; };
+		928561A061082946DD79F6871350B103 /* MagnetPopupPickerButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagnetPopupPickerButton.h; path = Pod/Classes/MagnetPopupPickerButton.h; sourceTree = "<group>"; };
+		95D9EED3E07C00CE5CC4DE18514FB9F8 /* MagnetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagnetViewController.h; path = Pod/Classes/MagnetViewController.h; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9B1C316F724FCC6B6E8AE1344A73D783 /* MagnetPopupPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagnetPopupPicker-dummy.m"; sourceTree = "<group>"; };
+		9F094A4A43CBEB6552CC34B93A386514 /* libCNPPopupController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCNPPopupController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A5D5EEFEA6619A6F4EE0523488B5D84E /* MagnetPopupPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagnetPopupPicker-prefix.pch"; sourceTree = "<group>"; };
-		A6AF809332797E48D2F033C28DB62B9A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3D81365C41602096EE05B49FECFA42A /* MagnetPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagnetPickerViewController.m; path = Pod/Classes/MagnetPickerViewController.m; sourceTree = "<group>"; };
+		A68B90EF91725B8D61F4019E00FB960B /* CNPPopupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNPPopupController.h; path = CNPPopupController/CNPPopupController.h; sourceTree = "<group>"; };
+		A741396E4F3A3068ACFB3A2325130415 /* CNPPopupController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CNPPopupController-dummy.m"; sourceTree = "<group>"; };
+		ACDBCA0911EF08F550B0939CB1817B4F /* libMagnetPopupPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMagnetPopupPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD80A8BB8BFE877139EBB94693E71B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67B5F89ACA3B1AEDD8F2B4EF72713C3 /* MagnetPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagnetPickerViewController.m; path = Pod/Classes/MagnetPickerViewController.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C3E7D3C42CE5CCE3675E2DF918D259F2 /* MagnetPopupPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagnetPopupPicker.xcconfig; sourceTree = "<group>"; };
-		C46F2B2C994EFF4F00EDFC170488D844 /* MagnetKeyValuePair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagnetKeyValuePair.h; path = Pod/Classes/MagnetKeyValuePair.h; sourceTree = "<group>"; };
+		C2C96E00DE56333BFEE2F6D97D979E7D /* MagnetPopoverView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagnetPopoverView.h; path = Pod/Classes/MagnetPopoverView.h; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D21B2431216746626FD2947E5946E9DA /* CNPPopupController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNPPopupController.xcconfig; sourceTree = "<group>"; };
+		DFBFCFC951FD46884491725ED9F992BE /* CNPPopupController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNPPopupController-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		18922F8B5A0508775FCAD02DE2D87BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B14649466A8387F650F623318F29DF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56456171C70D868AD03E0BFD42DA46CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,11 +104,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EC7FD27DB455E033447B5692A7AA746 /* Frameworks */ = {
+		7686E4F433B91B50796136D7A1F306DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE8197C6D44D9A8F3D959F02F9C0A61 /* Foundation.framework in Frameworks */,
+				66449EC9D54E637CD8915D3A574E6FB2 /* Foundation.framework in Frameworks */,
+				2B65513418BD22DD91E1D328A4A2858A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,44 +131,74 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		690ECFB2CF510A9E0D2E744BDD6C53B6 /* Products */ = {
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				61A9AE3F2993FA0194C586CDFC0FCF3E /* libMagnetPopupPicker.a */,
-				A6AF809332797E48D2F033C28DB62B9A /* libPods.a */,
-				4BBC75AD3858F66DA8120C14F2A6D7E0 /* MagnetPopupPicker.bundle */,
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		28B9EF92A81F50366816D70D505D93F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F094A4A43CBEB6552CC34B93A386514 /* libCNPPopupController.a */,
+				ACDBCA0911EF08F550B0939CB1817B4F /* libMagnetPopupPicker.a */,
+				AFD80A8BB8BFE877139EBB94693E71B0 /* libPods.a */,
+				8B4EB914C69197A3E07FC2E844E00752 /* MagnetPopupPicker.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6984D19A720747D1A3F17B0AA6893E51 /* Support Files */ = {
+		3386DA3E26BC73570B8367D463AF480B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C3E7D3C42CE5CCE3675E2DF918D259F2 /* MagnetPopupPicker.xcconfig */,
-				9B1C316F724FCC6B6E8AE1344A73D783 /* MagnetPopupPicker-dummy.m */,
-				A5D5EEFEA6619A6F4EE0523488B5D84E /* MagnetPopupPicker-prefix.pch */,
+				B6D64B82A431B715323E24214989C51F /* CNPPopupController */,
+				F747F01B22B22905FCEDFA5EE7516A5E /* MagnetPopupPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B4024C70467BC259CE402B764BD67DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24530C3D317ED93765BF9FB6D3FED59C /* MagnetPopupPicker.xcconfig */,
+				7B867DE9517DE757FCBA71E67A9B1D0B /* MagnetPopupPicker-dummy.m */,
+				0008FACD593A073208EFAE97A5FE3B33 /* MagnetPopupPicker-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MagnetPopupPicker";
+			sourceTree = "<group>";
+		};
+		60FC2B79733F0FC5D3519EB1570C7037 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D21B2431216746626FD2947E5946E9DA /* CNPPopupController.xcconfig */,
+				A741396E4F3A3068ACFB3A2325130415 /* CNPPopupController-dummy.m */,
+				DFBFCFC951FD46884491725ED9F992BE /* CNPPopupController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CNPPopupController";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B394CCBB205A9C70CAED55D970D47123 /* Pods */,
-				690ECFB2CF510A9E0D2E744BDD6C53B6 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3386DA3E26BC73570B8367D463AF480B /* Pods */,
+				28B9EF92A81F50366816D70D505D93F6 /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		B394CCBB205A9C70CAED55D970D47123 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FEF9EFD32C397B071C907BA0A46BC08D /* MagnetPopupPicker */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
@@ -158,36 +216,30 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B6D64B82A431B715323E24214989C51F /* CNPPopupController */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				A68B90EF91725B8D61F4019E00FB960B /* CNPPopupController.h */,
+				1651945E8255958AD35179847E799E49 /* CNPPopupController.m */,
+				60FC2B79733F0FC5D3519EB1570C7037 /* Support Files */,
 			);
-			name = Frameworks;
+			path = CNPPopupController;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		F747F01B22B22905FCEDFA5EE7516A5E /* MagnetPopupPicker */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		FEF9EFD32C397B071C907BA0A46BC08D /* MagnetPopupPicker */ = {
-			isa = PBXGroup;
-			children = (
-				C46F2B2C994EFF4F00EDFC170488D844 /* MagnetKeyValuePair.h */,
-				25AFE36F8BF31E26A5F81930E20DDA14 /* MagnetKeyValuePair.m */,
-				0AE3D4DE6AC80E67454EA554AC2BCD7F /* MagnetPickerViewController.h */,
-				B3D81365C41602096EE05B49FECFA42A /* MagnetPickerViewController.m */,
-				3CF2D38CBD1188594C4CCF5D12276262 /* MagnetPopoverView.h */,
-				486C953F0ED34A53724B112FB053C9FA /* MagnetPopoverView.m */,
-				3284CBF82C9A6CA15BE1F43609820434 /* MagnetPopupPickerButton.h */,
-				27037BEA90BB920E1B52DB277D9753E7 /* MagnetPopupPickerButton.m */,
-				812FF7F7FD9CDEFEE42F411311EF4826 /* MagnetViewController.h */,
-				121B140ED61624949DCE745B1D2F115C /* MagnetViewController.m */,
-				6984D19A720747D1A3F17B0AA6893E51 /* Support Files */,
+				4ADDD336CB75C0859D0749EE76BD16D0 /* MagnetKeyValuePair.h */,
+				9058BCF97C7CB9492F7480129F9F7739 /* MagnetKeyValuePair.m */,
+				5B7F24025B52E0B9894CF2692BF0CC24 /* MagnetPickerViewController.h */,
+				B67B5F89ACA3B1AEDD8F2B4EF72713C3 /* MagnetPickerViewController.m */,
+				C2C96E00DE56333BFEE2F6D97D979E7D /* MagnetPopoverView.h */,
+				8CFDC654BA851DB7DDBF34BBB709E377 /* MagnetPopoverView.m */,
+				928561A061082946DD79F6871350B103 /* MagnetPopupPickerButton.h */,
+				6D87561B9652D03EA08A37339C93DFF3 /* MagnetPopupPickerButton.m */,
+				95D9EED3E07C00CE5CC4DE18514FB9F8 /* MagnetViewController.h */,
+				674618E4D7643DB10F73900637758CF4 /* MagnetViewController.m */,
+				4B4024C70467BC259CE402B764BD67DA /* Support Files */,
 			);
 			path = MagnetPopupPicker;
 			sourceTree = "<group>";
@@ -207,9 +259,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A429DEF01D71D2CAEEAE2A8BCCC87B5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994D8C03A1A8E28A45973762B46F81D6 /* CNPPopupController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		611A56531AE8BFDB2320359150B8A900 /* CNPPopupController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC824BFCB6C870D81059D01448717B0B /* Build configuration list for PBXNativeTarget "CNPPopupController" */;
+			buildPhases = (
+				A23D180C01E885D1636E4B3FF672B4E3 /* Sources */,
+				7686E4F433B91B50796136D7A1F306DC /* Frameworks */,
+				A429DEF01D71D2CAEEAE2A8BCCC87B5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CNPPopupController;
+			productName = CNPPopupController;
+			productReference = 9F094A4A43CBEB6552CC34B93A386514 /* libCNPPopupController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A3B07AA39AAB6788B9E4239EC48B71E5 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5602696FCCFD2DAFCB25600591A4FC /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				39F91DA517420F9E274DC58A932A388E /* Sources */,
+				18922F8B5A0508775FCAD02DE2D87BFD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F84C9B7F9EC26C895E2900CCC41AB31 /* PBXTargetDependency */,
+				3FD07A1C001BBAB5EF603E3BC5D4CBD4 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = AFD80A8BB8BFE877139EBB94693E71B0 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		C602694DFF3EFD336B237827F18CC9B2 /* MagnetPopupPicker-MagnetPopupPicker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D98047A21B71E85BF57E3294C8D8A5C /* Build configuration list for PBXNativeTarget "MagnetPopupPicker-MagnetPopupPicker" */;
@@ -224,7 +319,7 @@
 			);
 			name = "MagnetPopupPicker-MagnetPopupPicker";
 			productName = "MagnetPopupPicker-MagnetPopupPicker";
-			productReference = 4BBC75AD3858F66DA8120C14F2A6D7E0 /* MagnetPopupPicker.bundle */;
+			productReference = 8B4EB914C69197A3E07FC2E844E00752 /* MagnetPopupPicker.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E42B5933134827C742BE1AE0A3B518CF /* MagnetPopupPicker */ = {
@@ -242,24 +337,7 @@
 			);
 			name = MagnetPopupPicker;
 			productName = MagnetPopupPicker;
-			productReference = 61A9AE3F2993FA0194C586CDFC0FCF3E /* libMagnetPopupPicker.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		FC47E2BB53F7772D6A6FD9AD2AB0F534 /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C5F48E909591F2FF09511B5766663DAC /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				9B5EE53393F405383E2E1425A70855DB /* Sources */,
-				6EC7FD27DB455E033447B5692A7AA746 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				132191F837856DFF5CFEEE0436794E74 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = A6AF809332797E48D2F033C28DB62B9A /* libPods.a */;
+			productReference = ACDBCA0911EF08F550B0939CB1817B4F /* libMagnetPopupPicker.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -279,13 +357,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 690ECFB2CF510A9E0D2E744BDD6C53B6 /* Products */;
+			productRefGroup = 28B9EF92A81F50366816D70D505D93F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				611A56531AE8BFDB2320359150B8A900 /* CNPPopupController */,
 				E42B5933134827C742BE1AE0A3B518CF /* MagnetPopupPicker */,
 				C602694DFF3EFD336B237827F18CC9B2 /* MagnetPopupPicker-MagnetPopupPicker */,
-				FC47E2BB53F7772D6A6FD9AD2AB0F534 /* Pods */,
+				A3B07AA39AAB6788B9E4239EC48B71E5 /* Pods */,
 			);
 		};
 /* End PBXProject section */
@@ -314,11 +393,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B5EE53393F405383E2E1425A70855DB /* Sources */ = {
+		39F91DA517420F9E274DC58A932A388E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				602D37B49D1CFD4EDF241A2F916113B7 /* Pods-dummy.m in Sources */,
+				B10F2C4A27E10C6CCF269FB1A56CF3BE /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23D180C01E885D1636E4B3FF672B4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97A6AD35DBD5ECD1BD63B2F0857A49F /* CNPPopupController-dummy.m in Sources */,
+				ACF1BFB0AA738954D18B7B55E5B7DBB4 /* CNPPopupController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,11 +420,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		132191F837856DFF5CFEEE0436794E74 /* PBXTargetDependency */ = {
+		3FD07A1C001BBAB5EF603E3BC5D4CBD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MagnetPopupPicker;
 			target = E42B5933134827C742BE1AE0A3B518CF /* MagnetPopupPicker */;
-			targetProxy = 3CB8C374B1E0945371776F132896623F /* PBXContainerItemProxy */;
+			targetProxy = 6360DCBB898DBCA17386E692E1BF3DB2 /* PBXContainerItemProxy */;
+		};
+		8F84C9B7F9EC26C895E2900CCC41AB31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CNPPopupController;
+			target = 611A56531AE8BFDB2320359150B8A900 /* CNPPopupController */;
+			targetProxy = 931F48507E82BD7A7FA635AE2B778D57 /* PBXContainerItemProxy */;
 		};
 		D3C3DBEE8AEC59341D56A1A6117AFA41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -347,7 +441,25 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2C0FF952F96E21F048E21743E82798D2 /* Release */ = {
+		2CD7802D461BADAA27E93F1323D642E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24530C3D317ED93765BF9FB6D3FED59C /* MagnetPopupPicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MagnetPopupPicker/MagnetPopupPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		34DFDFA6130A5D50A46AC4F08C9541ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
 			buildSettings = {
@@ -364,37 +476,7 @@
 			};
 			name = Release;
 		};
-		2CD7802D461BADAA27E93F1323D642E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3E7D3C42CE5CCE3675E2DF918D259F2 /* MagnetPopupPicker.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MagnetPopupPicker/MagnetPopupPicker-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		4BEB195A8773BC2F73D35D1E0CA46A84 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3E7D3C42CE5CCE3675E2DF918D259F2 /* MagnetPopupPicker.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MagnetPopupPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6512D923560B33B396395D0AB44E9094 /* Debug */ = {
+		4B6D757C02003332EDE99805F353B53F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
 			buildSettings = {
@@ -406,6 +488,36 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4BEB195A8773BC2F73D35D1E0CA46A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24530C3D317ED93765BF9FB6D3FED59C /* MagnetPopupPicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MagnetPopupPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7B58DEC3771D8F52BB870899FF9AB9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21B2431216746626FD2947E5946E9DA /* CNPPopupController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CNPPopupController/CNPPopupController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -452,7 +564,7 @@
 		};
 		AFD3F9D47A26C0C6EF01964EDC2098AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3E7D3C42CE5CCE3675E2DF918D259F2 /* MagnetPopupPicker.xcconfig */;
+			baseConfigurationReference = 24530C3D317ED93765BF9FB6D3FED59C /* MagnetPopupPicker.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = MagnetPopupPicker;
@@ -462,9 +574,27 @@
 			};
 			name = Release;
 		};
+		E8FEFA7B21CDC6235966301C67D294ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21B2431216746626FD2947E5946E9DA /* CNPPopupController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CNPPopupController/CNPPopupController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		EF42E38EB7C806C4375CEDD873A4A67A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3E7D3C42CE5CCE3675E2DF918D259F2 /* MagnetPopupPicker.xcconfig */;
+			baseConfigurationReference = 24530C3D317ED93765BF9FB6D3FED59C /* MagnetPopupPicker.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MagnetPopupPicker/MagnetPopupPicker-prefix.pch";
@@ -517,6 +647,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F5602696FCCFD2DAFCB25600591A4FC /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6D757C02003332EDE99805F353B53F /* Debug */,
+				34DFDFA6130A5D50A46AC4F08C9541ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -535,20 +674,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5F48E909591F2FF09511B5766663DAC /* Build configuration list for PBXNativeTarget "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6512D923560B33B396395D0AB44E9094 /* Debug */,
-				2C0FF952F96E21F048E21743E82798D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D2BDC8112E6884CD5C562B0A323DBC91 /* Build configuration list for PBXNativeTarget "MagnetPopupPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF42E38EB7C806C4375CEDD873A4A67A /* Debug */,
 				2CD7802D461BADAA27E93F1323D642E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC824BFCB6C870D81059D01448717B0B /* Build configuration list for PBXNativeTarget "CNPPopupController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B58DEC3771D8F52BB870899FF9AB9CB /* Debug */,
+				E8FEFA7B21CDC6235966301C67D294ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

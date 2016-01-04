@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *tfSpecialMentions;
 @property (weak, nonatomic) IBOutlet UILabel *lblCurrentSelection;
 @property (weak, nonatomic) IBOutlet UIButton *btnReserve;
+@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 
 @end
 
@@ -55,14 +56,23 @@ NSString *message;
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     [[self view] endEditing:YES];
 }
+- (IBAction)pickerAction:(id)sender {
+    
+}
 
 - (IBAction)btnReserve:(id)sender {
     
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    
+    [dateFormatter setDateFormat:@"dd-MM-yyyy HH:mm"];
+    
+    NSString *formatedDate = [dateFormatter stringFromDate:self.datePicker.date];
+    
     if (self.swKidsYesNo.on==NO) {
-            message = [NSString stringWithFormat:@"Floor Number : %@\rRoom Number : %@\rTable Number : %@\rAdults : %@\rSp.Mentions : %@\r",self.floorNumber,self.roomNumber,self.imageName, self.txtAdults.text,self.tfSpecialMentions.text];
+            message = [NSString stringWithFormat:@"Floor Number : %@\rRoom Number : %@\rTable Number : %@\rAdults : %@\rSp.Mentions : %@\rOn : %@\r",self.floorNumber,self.roomNumber,self.imageName, self.txtAdults.text,self.tfSpecialMentions.text,formatedDate];
     }
     else{
-            message = [NSString stringWithFormat:@"Floor Number : %@\rRoom Number : %@\rTable Number : %@\rAdults : %@\rKids : %@\rSp.Mentions : %@\r",self.floorNumber,self.roomNumber,self.imageName, self.txtAdults.text,self.txtKids.text,self.tfSpecialMentions.text];
+            message = [NSString stringWithFormat:@"Floor Number : %@\rRoom Number : %@\rTable Number : %@\rAdults : %@\rKids : %@\rSp.Mentions : %@\rOn : %@\r",self.floorNumber,self.roomNumber,self.imageName, self.txtAdults.text,self.txtKids.text,self.tfSpecialMentions.text,formatedDate];
     }
     
     UIAlertController * alert=   [UIAlertController
@@ -80,6 +90,9 @@ NSString *message;
                              [alert dismissViewControllerAnimated:YES completion:nil];
                          }];
     [alert addAction:ok];
+   
+   
+    
 }
 
 - (void)didReceiveMemoryWarning {
